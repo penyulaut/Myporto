@@ -337,6 +337,13 @@ p {
   animation: fadeInUp 1s ease;
 }
 
+@media (max-width: 768px){
+  .hero{
+    height: auto;
+    padding: 150px 0 100px;
+  }
+}
+
 .profile-placeholder {
   width: 300px;
   height: 300px;
@@ -374,6 +381,12 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
 }
 
 .about-text p {
