@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"      
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <a href="#home">Ripan<span>Putra</span> </a>
+          </div>
+          <div class="nav-menu" id="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Ripan</span>
+            </h1>
+            <p class="hero-subtitle">Web Developer & Data enthusiast</p>
+            <p class="hero-description">
+              I create beautiful, responsive websites with modern technologies
+              and user-centered design principles.
+            </p>
+            <div class="sosmed">
+              <a href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="hero-btns">
+              <a href="#portfolio" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <!-- <div class="profile-placeholder">Your Photo</div> -->
+            <img src="images/hero-img.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Hello! I'm a passionate web developer with expertise in creating
+                modern, responsive websites and applications. I focus on clean
+                code, user experience, and visual design.
+              </p>
+              <p>
+                With experience in various technologies, I bring ideas to life
+                through code and design. I'm always eager to learn new
+                technologies and tackle challenging projects.
+              </p>
+              <div class="skills">
+                <h3>Skills & Technologies</h3>
+                <ul class="skills-list">
+                  <li>HTML5 & CSS3</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>React.js</li>
+                  <li>UI/UX Design</li>
+                  <li>Responsive Design</li>
+                  <li>Git & GitHub</li>
+                  <li>Node.js</li>
+                  <li>Python</li>
+                </ul>
+              </div>
+            </div>
+            <div class="about-image">
+              <div class="profile-placeholder-large">Profile Image</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="section-title">My Portfolio</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/porto1.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <h3>Education Game</h3>
+                <p>
+                  A fully responsive e-commerce website with product listings,
+                  cart functionality, and payment integration.
+                </p>
+                <div class="portfolio-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Postgree SQL</span>
+                  <span class="tag">Tailwind CSS</span>
+                </div>
+                <div class="portfolio-links">
+                  <a
+                    href="https://maze-masters-quiz-8305s1jq1-muzzs-projects-76c8e843.vercel.app/"
+                    class="btn btn-small"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/porto2.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <h3>E-commerce Website</h3>
+                <p>
+                  A travel blog with location-based content, photo galleries,
+                  and user interaction features.
+                </p>
+                <div class="portfolio-tags">
+                  <span class="tag">Laravel</span>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="portfolio-links">
+                  <a href="#" class="btn btn-small">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/porto3.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <h3>Coffe Shop Website</h3>
+                <p>
+                  A productivity application with drag-and-drop functionality,
+                  notifications, and team collaboration.
+                </p>
+                <div class="portfolio-tags">
+                  <span class="tag">Vue.js</span>
+                  <span class="tag">Firebase</span>
+                  <span class="tag">CSS</span>
+                </div>
+                <div class="portfolio-links">
+                  <a href="#" class="btn btn-small">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/porto4.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <h3>Car sales website</h3>
+                <p>
+                  A mobile-first fitness application with workout plans,
+                  progress tracking, and nutrition guidance.
+                </p>
+                <div class="portfolio-tags">
+                  <span class="tag">React Native</span>
+                  <span class="tag">Redux</span>
+                  <span class="tag">Express</span>
+                </div>
+                <div class="portfolio-links">
+                  <a
+                    href="https://car-sales-website-one.vercel.app/"
+                    class="btn btn-small"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/porto5.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <h3>Krakatau Kontruksi</h3>
+                <p>
+                  A mobile-first fitness application with workout plans,
+                  progress tracking, and nutrition guidance.
+                </p>
+                <div class="portfolio-tags">
+                  <span class="tag">React Native</span>
+                  <span class="tag">Redux</span>
+                  <span class="tag">Express</span>
+                </div>
+                <div class="portfolio-links">
+                  <a
+                    href="https://car-sales-website-one.vercel.app/"
+                    class="btn btn-small"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Contact Information</h3>
+              <p>
+                Feel free to reach out if you're looking for a developer, have a
+                question, or just want to connect.
+              </p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <strong>Email:</strong> your.email@example.com
+                </div>
+                <div class="contact-item">
+                  <strong>Phone:</strong> +123 456 7890
+                </div>
+                <div class="contact-item">
+                  <strong>Location:</strong> Your City, Country
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
